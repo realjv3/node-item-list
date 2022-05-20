@@ -6,7 +6,7 @@ A simple list CRUD containerized web app with a MERN stack.
 #### Build docker containers
 Execute`docker build -t node-item-list -f node.dockerfile . ` from command line in project root dir.
 
-If you're on an Apple M1 chip, remove `--platform linux/amd64` from mysql.dockerfile `FROM` line.
+If you're NOT on an Apple M1 chip, remove `--platform linux/amd64` from mysql.dockerfile `FROM` line.
 
 Execute `docker build -t mysql -f mysql.dockerfile .` from commandline in project root dir.
 
