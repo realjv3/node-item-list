@@ -1,0 +1,45 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#container {
+  margin: 0 auto;
+  width: 50%;
+}
+
+#inputs {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#inputs > label {
+  margin: 0 5px;
+}
+
+#items {
+  list-style-type: 'none';
+}
+
+.item > div {
+  border-right: 1px solid darkgray;
+  padding: 5px;
+}
+
+#modal {
+  width: 553px;
+  height: 300px;
+  border: 1px solid;
+  padding: 10px;
+  background-color: aliceblue;
+  position: absolute;
+}
+
+#modal button {
+  float: right;
+}
